@@ -1,4 +1,5 @@
-# python-assignment-1
+# python-assignment
+## Code2Xplore – 60 Days Challenge (Day‑1)
 Problem Statement
 The program asks for four things:
 - Full Name
@@ -28,3 +29,45 @@ Algorithm
  Code Snippets
  
   <img width="800" height="500" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/6ae20adb-b1f7-4f6a-84a5-a9570009dc68" />
+
+## Code2Xplore – 60 Days Challenge (Day‑2)
+The goal is to create a program that checks student details before approving their account.
+The program uses only:
+- Strings
+- Conditional statements
+Problem Statement
+The program takes four inputs:
+- Student ID
+- Email ID
+- Password
+- Referral Code
+It checks if these inputs follow the university rules.
+If all are valid → it prints APPROVED
+If any rule fails → it prints REJECTED
+
+Validation Rules
+Student ID
+- Format: CSE-XXX
+- Must start with "CSE"
+- 4th character must be "-"
+- Last 3 characters must be digits
+- Example: CSE-245 → Valid, cse-245 → Invalid
+Email ID
+- Must contain @ and .
+- @ cannot be the first or last character
+- Must end with .edu
+- Example: student@univ.edu → Valid, student@gmail.com → Invalid
+Password
+- Must be at least 8 characters long
+- First character must be uppercase
+- Must contain at least one digit
+- Example: Aman1234 → Valid, amanabcd → Invalid
+Referral Code
+- Format: REF##@
+- Must start with "REF"
+- Next 2 characters must be digits
+- Last character must be @
+- Example: REF45@ → Valid, RE45@ → Invalid
+
+Code snippets
+<img width="800" height="500" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/a55bf82d-3f3d-4567-b418-4b854788a830" />
